@@ -10,6 +10,7 @@ export function AspectRatioDemo() {
         src={ExampleImg}
         alt="Photo by Drew Beamer"
         fill
+        loading="lazy"
         className="rounded-md object-cover"
       />
     </AspectRatio>
