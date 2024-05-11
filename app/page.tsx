@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ModeToggle } from "@/components/mode-toggle";
 import { AccordionDemo } from "@/components/accordion";
 import { AlertDemo } from "@/components/alert";
+import { AlertDialogDemo } from "@/components/alert-dialog";
 
 export default function Home() {
   return (
@@ -23,18 +24,19 @@ export default function Home() {
           <AccordionDemo />
         </div>
         <div className="w-[30%]">
-          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+          <h3 className="text-[18px] mb-2 text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
             Alert
           </h3>
-          <AlertDemo />
           <div className="my-4"></div>
           <AlertDemo />
         </div>
         <div className="w-[30%]">
-          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
-            Accordion
+          <h3 className="text-[18px] mb-2 text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Alert Dialog
           </h3>
-          <AccordionDemo />
+          <div className="flex justify-center mt-4">
+            <AlertDialogDemo />
+          </div>
         </div>
       </div>
     </div>
