@@ -14,8 +14,13 @@ import { CheckboxDemo } from "@/components/checkbox";
 import { CollapsibleDemo } from "@/components/collapsible";
 import { CommandDemo } from "@/components/command";
 import { ContextMenuDemo } from "@/components/context-menu";
-import { DatePickerDemo } from "@/components/datepicker";
 import { DataTableDemo } from "@/components/datatable";
+import { DialogDemo } from "@/components/dialog";
+import { DropdownMenuDemo } from "@/components/dropdown";
+import { HoverCardDemo } from "@/components/hover-card";
+import { InputOTPControlled as InputOTPPattern } from "@/components/input-otp";
+import { MenubarDemo } from "@/components/menu-bar";
+import { NavigationMenuDemo } from "@/components/navigation";
 
 export default function Home() {
   return (
@@ -151,6 +156,68 @@ export default function Home() {
           </h3>
           <div className="m-4"></div>
           <DataTableDemo />
+        </div>
+      </div>
+      <div className="p-2 m-5 border-y text-center">this is a border</div>
+
+      {/* block 6 */}
+      <div className="m-5 flex justify-around px-2">
+        {/* box 1 */}
+        <div className="max-w-[30%]">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Dialog
+          </h3>
+          <div className="m-4"></div>
+          <DialogDemo />
+        </div>
+
+        {/* box 2 */}
+        <div className="max-w-[30%]">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Dropdown
+          </h3>
+          <div className="m-4"></div>
+          <DropdownMenuDemo />
+        </div>
+
+        {/* box 3 */}
+        <div className="max-w-[30%]">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            HoverCard
+          </h3>
+          <div className="m-4"></div>
+          <HoverCardDemo />
+        </div>
+      </div>
+      <div className="p-2 m-5 border-y text-center">this is a border</div>
+
+      {/* block 6 */}
+      <div className="m-5 flex justify-around px-2">
+        {/* box 1 */}
+        <div className="max-w-[30%]">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Menubar
+          </h3>
+          <div className="m-4"></div>
+          <MenubarDemo />
+        </div>
+
+        {/* box 2 */}
+        <div className="max-w-[30%]">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            NavigationMenuDemo
+          </h3>
+          <div className="m-4"></div>
+          <NavigationMenuDemo />
+        </div>
+
+        {/* box 3 */}
+        <div className="max-w-[30%]">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            InputOTPControlled
+          </h3>
+          <div className="m-4"></div>
+          <InputOTPPattern />
         </div>
       </div>
       <div className="p-2 m-5 border-y text-center">this is a border</div>
