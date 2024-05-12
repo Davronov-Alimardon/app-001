@@ -33,6 +33,14 @@ import { SheetDemo } from "@/components/sheet";
 import { SkeletonDemo } from "@/components/skeleton";
 import { SliderDemo } from "@/components/slider";
 import { SonnerDemo } from "@/components/sonner";
+import { SwitchDemo } from "@/components/switch";
+import { TableDemo } from "@/components/newtable";
+import { TabsDemo } from "@/components/tabs";
+import { TextareaDemo } from "@/components/textarea";
+import { ToastDestructive } from "@/components/simpletoast";
+import { ToggleDemo } from "@/components/toggle";
+import { ToggleGroupDemo } from "@/components/toggle-group";
+import { TooltipDemo } from "@/components/tooltip";
 
 export default function Home() {
   return (
@@ -360,6 +368,97 @@ export default function Home() {
           </h3>
           <div className="m-4 flex flex-row justify-center">
             <SonnerDemo />
+          </div>
+        </div>
+      </div>
+      <div className="p-2 m-5 border-y text-center">this is a border</div>
+
+      {/* block 10 */}
+      <div className="m-5 flex justify-between px-2">
+        {/* box 1 */}
+        <div className="w-[30%]">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Switch
+          </h3>
+          <div className="m-4 flex flex-row justify-center">
+            <SwitchDemo />
+          </div>
+        </div>
+
+        {/* box 2 */}
+        <div className="w-[30%]">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Table
+          </h3>
+          <div className="m-4">
+            <TableDemo />
+          </div>
+        </div>
+        {/* box 3 */}
+        <div className="w-[30%]">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Tabs
+          </h3>
+          <div className="m-4">
+            <TabsDemo />
+          </div>
+        </div>
+      </div>
+      <div className="p-2 m-5 border-y text-center">this is a border</div>
+
+      {/* block 11 */}
+      <div className="m-5 flex justify-between px-2">
+        {/* box 1 */}
+        <div className="w-[30%]">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Textarea
+          </h3>
+          <div className="m-4 flex flex-row justify-center">
+            <TextareaDemo />
+          </div>
+        </div>
+
+        {/* box 2 */}
+        <div className="w-[30%]">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Toast
+          </h3>
+          <div className="m-4 flex flex-row justify-center">
+            <ToastDestructive />
+          </div>
+        </div>
+
+        {/* box 3 */}
+        <div className="w-[30%]">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Toggle
+          </h3>
+          <div className="m-4 flex flex-row justify-center">
+            <ToggleDemo />
+          </div>
+        </div>
+      </div>
+      <div className="p-2 m-5 border-y text-center">this is a border</div>
+
+      {/* block 11 */}
+      <div className="m-5 flex justify-between px-2">
+        {/* box 1 */}
+        <div className="w-[30%]">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            ToggleGroup
+          </h3>
+          <div className="m-4 flex flex-row justify-center">
+            <ToggleGroupDemo />
+          </div>
+        </div>
+
+        {/* box 2 */}
+        <div className="w-[30%]">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Tooltip
+          </h3>
+          <div className="m-4 flex flex-row justify-center">
+            <TooltipDemo />
           </div>
         </div>
       </div>
