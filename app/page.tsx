@@ -21,6 +21,9 @@ import { HoverCardDemo } from "@/components/hover-card";
 import { InputOTPControlled as InputOTPPattern } from "@/components/input-otp";
 import { MenubarDemo } from "@/components/menu-bar";
 import { NavigationMenuDemo } from "@/components/navigation";
+import { PaginationDemo } from "@/components/pagination";
+import { PopoverDemo } from "@/components/popover";
+import { ProgressDemo } from "@/components/progress";
 
 export default function Home() {
   return (
@@ -218,6 +221,38 @@ export default function Home() {
           </h3>
           <div className="m-4"></div>
           <InputOTPPattern />
+        </div>
+      </div>
+      <div className="p-2 m-5 border-y text-center">this is a border</div>
+
+      {/* block 7 */}
+      <div className="m-5 flex justify-between px-2">
+        {/* box 1 */}
+        <div className="w-[30%] text-center">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Pagination
+          </h3>
+          <div className="m-4 "></div>
+          <PaginationDemo />
+        </div>
+
+        {/* box 2 */}
+        <div className="w-[30%] text-center">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Popover
+          </h3>
+          <div className="m-4"></div>
+          <PopoverDemo />
+        </div>
+
+        {/* box 3 */}
+        <div className="w-[30%] text-center">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Progress
+          </h3>
+          <div className="m-4 flex flex-row justify-center">
+            <ProgressDemo />
+          </div>
         </div>
       </div>
       <div className="p-2 m-5 border-y text-center">this is a border</div>
