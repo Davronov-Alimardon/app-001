@@ -24,6 +24,15 @@ import { NavigationMenuDemo } from "@/components/navigation";
 import { PaginationDemo } from "@/components/pagination";
 import { PopoverDemo } from "@/components/popover";
 import { ProgressDemo } from "@/components/progress";
+import { RadioGroupDemo } from "@/components/radio-button";
+import { ResizableDemo } from "@/components/resizable";
+import { ScrollAreaDemo } from "@/components/scroll-area";
+import { SelectDemo } from "@/components/select";
+import { SeparatorDemo } from "@/components/separator";
+import { SheetDemo } from "@/components/sheet";
+import { SkeletonDemo } from "@/components/skeleton";
+import { SliderDemo } from "@/components/slider";
+import { SonnerDemo } from "@/components/sonner";
 
 export default function Home() {
   return (
@@ -252,6 +261,105 @@ export default function Home() {
           </h3>
           <div className="m-4 flex flex-row justify-center">
             <ProgressDemo />
+          </div>
+        </div>
+      </div>
+      <div className="p-2 m-5 border-y text-center">this is a border</div>
+
+      {/* block 8 */}
+      <div className="m-5 flex justify-between px-2">
+        {/* box 1 */}
+        <div className="w-[30%]">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            ResizableDemo
+          </h3>
+          <div className="m-4 flex flex-row justify-center">
+            <ResizableDemo />
+          </div>
+        </div>
+
+        {/* box 2 */}
+        <div className="w-[30%] text-center">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            ScrollArea
+          </h3>
+          <div className="m-4 flex flex-row justify-center">
+            <ScrollAreaDemo />
+          </div>
+        </div>
+        {/* box 3 */}
+        <div className="w-[30%] text-center">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            RadioGroup
+          </h3>
+          <div className="m-4 flex flex-row justify-center">
+            <RadioGroupDemo />
+          </div>
+        </div>
+      </div>
+      <div className="p-2 m-5 border-y text-center">this is a border</div>
+
+      {/* block 8 */}
+      <div className="m-5 flex justify-between px-2">
+        {/* box 1 */}
+        <div className="w-[30%]">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Select
+          </h3>
+          <div className="m-4 flex flex-row justify-center">
+            <SelectDemo />
+          </div>
+        </div>
+
+        {/* box 2 */}
+        <div className="w-[30%] text-center">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Separator
+          </h3>
+          <div className="m-4 flex flex-row justify-center">
+            <SeparatorDemo />
+          </div>
+        </div>
+        {/* box 3 */}
+        <div className="w-[30%] text-center">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Sheet
+          </h3>
+          <div className="m-4 flex flex-row justify-center">
+            <SheetDemo />
+          </div>
+        </div>
+      </div>
+      <div className="p-2 m-5 border-y text-center">this is a border</div>
+
+      {/* block 9 */}
+      <div className="m-5 flex justify-between px-2">
+        {/* box 1 */}
+        <div className="w-[30%]">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Skeleton
+          </h3>
+          <div className="m-4 flex flex-row justify-center">
+            <SkeletonDemo />
+          </div>
+        </div>
+
+        {/* box 2 */}
+        <div className="w-[30%] text-center">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Slider
+          </h3>
+          <div className="m-4 flex flex-row justify-center">
+            <SliderDemo />
+          </div>
+        </div>
+        {/* box 3 */}
+        <div className="w-[30%] text-center">
+          <h3 className="text-[18px] text-uppercase hover:underline text-violet-900 font-mono font-semibold dark:text-violet-400 text-center">
+            Toast
+          </h3>
+          <div className="m-4 flex flex-row justify-center">
+            <SonnerDemo />
           </div>
         </div>
       </div>
